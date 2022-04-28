@@ -24,18 +24,18 @@ public class OfficeUser {
         return firstName + ", " + middleName + ", " + lastName + ", " + post + ", " + phoneNumber + ", " + email + ", " + salary + ", " + age + ", ";
     }
 
-    public void print() {
+//     public void print() {
 
-        System.out.println("firstName = " + firstName);
-        System.out.println("middleName = " + middleName);
-        System.out.println("lastName = " + lastName);
-        System.out.println("post = " + post);
-        System.out.println("phoneNumber = " + phoneNumber);
-        System.out.println("email = " + email);
-        System.out.println("salary = " + salary);
-        System.out.println("age = " + age);
+//         System.out.println("firstName = " + firstName);
+//         System.out.println("middleName = " + middleName);
+//         System.out.println("lastName = " + lastName);
+//         System.out.println("post = " + post);
+//         System.out.println("phoneNumber = " + phoneNumber);
+//         System.out.println("email = " + email);
+//         System.out.println("salary = " + salary);
+//         System.out.println("age = " + age);
 
-    }
+//     }
 
 
     public String getFirstName() {
