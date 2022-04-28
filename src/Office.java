@@ -8,30 +8,32 @@ public class Office {
     public static void main(String[] args) {
 
 
-        OfficeUser oU1 = new OfficeUser("Дмитрий", "Дмитриевич", "Сидоров", "Главный инженер", 896354652, "d@mail.com", 60000, 48);
-        OfficeUser oU2 = new OfficeUser("Иван", "Иванович", "Иванов", "Помощник инженер", 896354660, "N@mail.com", 25000, 25);
-        OfficeUser oU3 = new OfficeUser("Владимир", "Александрович", "Морозов", "Директор", 896354628, "V@mail.com", 250000, 58);
-        OfficeUser oU4 = new OfficeUser("Петр", "Петрович", "Петров", "Секретарь", 896354635, "P@mail.com", 30000, 28);
-        OfficeUser oU5 = new OfficeUser("Анатолий", "Анатольевич", "Анатольев", "Младший программист", 896354699, "A@mail.com", 40000, 26);
+        OfficeUser oU1 = new OfficeUser("Г„Г¬ГЁГІГ°ГЁГ©", "Г„Г¬ГЁГІГ°ГЁГҐГўГЁГ·", "Г‘ГЁГ¤Г®Г°Г®Гў", "ГѓГ«Г ГўГ­Г»Г© ГЁГ­Г¦ГҐГ­ГҐГ°", 896354652, "d@mail.com", 60000, 48);
+        OfficeUser oU2 = new OfficeUser("Г€ГўГ Г­", "Г€ГўГ Г­Г®ГўГЁГ·", "Г€ГўГ Г­Г®Гў", "ГЏГ®Г¬Г®Г№Г­ГЁГЄ ГЁГ­Г¦ГҐГ­ГҐГ°", 896354660, "N@mail.com", 25000, 25);
+        OfficeUser oU3 = new OfficeUser("Г‚Г«Г Г¤ГЁГ¬ГЁГ°", "ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г®ГўГЁГ·", "ГЊГ®Г°Г®Г§Г®Гў", "Г„ГЁГ°ГҐГЄГІГ®Г°", 896354628, "V@mail.com", 250000, 58);
+        OfficeUser oU4 = new OfficeUser("ГЏГҐГІГ°", "ГЏГҐГІГ°Г®ГўГЁГ·", "ГЏГҐГІГ°Г®Гў", "Г‘ГҐГЄГ°ГҐГІГ Г°Гј", 896354635, "P@mail.com", 30000, 28);
+        OfficeUser oU5 = new OfficeUser("ГЂГ­Г ГІГ®Г«ГЁГ©", "ГЂГ­Г ГІГ®Г«ГјГҐГўГЁГ·", "ГЂГ­Г ГІГ®Г«ГјГҐГў", "ГЊГ«Г Г¤ГёГЁГ© ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ", 896354699, "A@mail.com", 40000, 26);
 
 
         OfficeUser[] users = new OfficeUser[WORKERS];
-        users[0] = new OfficeUser("Дмитрий", "Дмитриевич", "Сидоров", "Главный инженер", 896354652, "d@mail.com", 60000, 48);
-        users[1] = new OfficeUser("Иван", "Иванович", "Иванов", "Помощник инженер", 896354660, "N@mail.com", 25000, 25);
-        users[2] = new OfficeUser("Владимир", "Александрович", "Морозов", "Директор", 896354628, "V@mail.com", 250000, 58);
-        users[3] = new OfficeUser("Петр", "Петрович", "Петров", "Секретарь", 896354635, "P@mail.com", 30000, 28);
-        users[4] = new OfficeUser("Анатолий", "Анатольевич", "Анатольев", "Младший программист", 896354699, "A@mail.com", 40000, 26);
+        users[0] = new OfficeUser("Г„Г¬ГЁГІГ°ГЁГ©", "Г„Г¬ГЁГІГ°ГЁГҐГўГЁГ·", "Г‘ГЁГ¤Г®Г°Г®Гў", "ГѓГ«Г ГўГ­Г»Г© ГЁГ­Г¦ГҐГ­ГҐГ°", 896354652, "d@mail.com", 60000, 48);
+        users[1] = new OfficeUser("Г€ГўГ Г­", "Г€ГўГ Г­Г®ГўГЁГ·", "Г€ГўГ Г­Г®Гў", "ГЏГ®Г¬Г®Г№Г­ГЁГЄ ГЁГ­Г¦ГҐГ­ГҐГ°", 896354660, "N@mail.com", 25000, 25);
+        users[2] = new OfficeUser("Г‚Г«Г Г¤ГЁГ¬ГЁГ°", "ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г®ГўГЁГ·", "ГЊГ®Г°Г®Г§Г®Гў", "Г„ГЁГ°ГҐГЄГІГ®Г°", 896354628, "V@mail.com", 250000, 58);
+        users[3] = new OfficeUser("ГЏГҐГІГ°", "ГЏГҐГІГ°Г®ГўГЁГ·", "ГЏГҐГІГ°Г®Гў", "Г‘ГҐГЄГ°ГҐГІГ Г°Гј", 896354635, "P@mail.com", 30000, 28);
+        users[4] = new OfficeUser("ГЂГ­Г ГІГ®Г«ГЁГ©", "ГЂГ­Г ГІГ®Г«ГјГҐГўГЁГ·", "ГЂГ­Г ГІГ®Г«ГјГҐГў", "ГЊГ«Г Г¤ГёГЁГ© ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ", 896354699, "A@mail.com", 40000, 26);
 
 
-        System.out.println(Arrays.toString(users)); //Вывод массива
+        oU1.print();
         System.out.println(" ");
-        System.out.println("oU1 = " + oU1); // Вывод отдельно каждого работника
-        System.out.println("oU2 = " + oU2);
-        System.out.println("oU3 = " + oU3);
-        System.out.println("oU4 = " + oU4);
-        System.out.println("oU5 = " + oU5);
-
+        oU2.print();
         System.out.println(" ");
+        oU3.print();
+        System.out.println(" ");
+        oU4.print();
+        System.out.println(" ");
+        oU5.print();
+        System.out.println(" ");
+
 
         for (int i = 0; i < users.length; i++) {
             if (users[i].getAge() >= AGE_MAX) {
