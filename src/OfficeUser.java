@@ -24,10 +24,10 @@ public class OfficeUser {
         return firstName + ", " + middleName + ", " + lastName + ", " + post + ", " + phoneNumber + ", " + email + ", " + salary + ", " + age + ", ";
     }
 
-    public void print() {
+     public void print() {
 
-        System.out.println("firstName = " + firstName+"middleName = " + middleName+"lastName = " + lastName+"post = " + post+"phoneNumber = " + phoneNumber+"email = " + email+"salary = " + salary+"age = " + age);
-        
+        System.out.println("firstName = " + firstName + "\n" + "middleName = " + middleName + "\n" + "lastName = " + lastName + "\n" + "post = " + post + "\n" + "phoneNumber = " + phoneNumber + "\n" + "email = " + email + "\n" + "salary = " + salary + "\n" + "age = " + age);
+
     }
 
 
